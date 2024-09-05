@@ -3,11 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menu Makanan Bakso dan Mie Ayam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Daftar Produk</title>
   <style>
     table {
-        width: 75%;
+        width: 100%;
         border-collapse: collapse;
+        margin-top: 5%;
     }
     th, td {
         border: 1px solid black;
@@ -18,72 +22,115 @@
         background-color:gainsboro;
     }
     .box {
-      width: 800px;
+      width: 1200px;
       margin: auto;
       margin-bottom: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+    
+    .btn {
+      border: 20px;
+      background-color: ghostwhite;
+      border-radius: 5%;
+      text-decoration: dashed;
+      padding: 5px;
+    }
+    
 
-    }
-    .baksotetelan.jpg {
-        width: 50px;
-        height: 50px;
-    }
   </style>
 </head>
 <body>
     <div class="box">  
-    <h1>Menu Makanan Bakso dan Mie Ayam</h1>
-    <button>Tombol</button>
+    <h1>Daftar Produk</h1>
+
+    <a href="tambah.html" class="btn">Tambah</a>
     
     <table>
         <thead>
             <tr>
-                <th>no</th>
-                <th>nama</th>
-                <th>harga</th>
-                <th>gambar</th>
+                <th>No</th>
+                <th>Nama Barang</th>
+                <th>Kode Barang</th>
+                <th>Tanggal Masuk</th>
+                <th>Tanggal Expried</th>
+                <th>Jumlah Stock</th>
+                <th>Harga Beli</th>
+                <th>Harga Jual</th>
+                <th>Aksi</th>
                 
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Bakso Tetelan</td>
-                <td>Rp. 25.000,00</td>
+                <td>Masker Medis</td>
+                <td>5MQVHS5M2h</td>
+                <td>04-9-2024</td>
+                <td>04-9-2024</td>
+                <td>20</td>
+                <td>10000</td>
+                <td>13000</td>
                 <td>
-                  <img src="baksotetelan.jpg" height="200px" width="200px" >
+                  <button>Edit</button>
+                  <button>Delete</button>
                 </td>
+              
             </tr>
             <tr>
                 <td>2</td>
-                <td>Bakso Beranak Lava</td>
-                <td>Rp. 25.000,00</td>
+                <td>Tissue</td>
+                <td>5MQVHS5M2h</td>
+                <td>04-9-2024</td>
+                <td>04-9-2024</td>
+                <td>20</td>
+                <td>10000</td>
+                <td>13000</td>
                 <td>
-                  <img src="baksoberanaklava.jpg" height="200px" width="200px">
+                  <button>Edit</button>
+                  <button>Delete</button>
                 </td>
             </tr>
             <tr>
-              <td>3</td>
-              <td>Mie Ayam + Ceker</td>
-              <td>Rp. 15.000,00</td>
-              <td>
-                <img src="mieayamceker.jpg" height="200px" width="200px">
-              </td>
+              <td>3</td>  
+              <td>Sabun Cuci Tangan</td>
+                <td>5MQVHS5M2h</td>
+                <td>04-9-2024</td>
+                <td>04-9-2024</td>
+                <td>20</td>
+                <td>10000</td>
+                <td>13000</td>
+                <td>
+                  <button>Edit</button>
+                  <button>Delete</button>
+                </td>
           </tr>
           <tr>
             <td>4</td>
-            <td>mie Ayam + Bakso Telur</td>
-            <td>Rp. 25.000,00</td>
-            <td>
-              <img src="mieayambaksotelur.jpg" height="200px" width="200px">
-            </td>
+            <td>Hand sanitizer</td>
+                <td>5MQVHS5M2h</td>
+                <td>04-9-2024</td>
+                <td>04-9-2024</td>
+                <td>20</td>
+                <td>10000</td>
+                <td>13000</td>
+                <td>
+                  <button>Edit</button>
+                  <button>Delete</button>
+                </td>
         </tr>
         <tr>
           <td>5</td>
-          <td>Mie ayam  + ceker + Bakso</td>
-          <td>Rp. 25.000,00</td>
-          <td>
-            <img src="mieyamacekerbakso.jpg" height="200px" width="200px">
-          </td>
+          <td>Plaster</td>
+                <td>5MQVHS5M2h</td>
+                <td>04-9-2024</td>
+                <td>04-9-2024</td>
+                <td>20</td>
+                <td>10000</td>
+                <td>13000</td>
+                <td>
+                  <button>Edit</button>
+                  <button>Delete</button>
+                </td>
           </tr>
             </tbody>
         </div>
